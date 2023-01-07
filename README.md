@@ -31,7 +31,7 @@ The database files can be found in the `database` folder. You can either use the
 
 ## Backend Setup - Bin File
 
-1. Download the appropriate `bin` folder from the `relases`.
+1. Download the appropriate `bin` folder from the `releases`.
 2. Once the bin file is downloaded, you can proceed to the execution phase.
 
 ## Operation Phase
