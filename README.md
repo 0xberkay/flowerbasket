@@ -15,7 +15,8 @@ Ciceksepeti e-commerce clone school project
 
 <details><summary>CLICK For Documentation</summary>
 ## Diagram
-![Diagram](https://raw.githubusercontent.com/0xberkay/flowerbasket/main/diagram.png)
+
+<img src="https://raw.githubusercontent.com/0xberkay/flowerbasket/main/diagram.png" width="450"/>
 
 ## Database Setup
 
