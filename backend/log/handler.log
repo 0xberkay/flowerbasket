@@ -1,0 +1,60 @@
+2022/12/31 21:54:58 asm_amd64.s:1594: Error WrongPassword | <nil>
+2022/12/31 21:55:11 asm_amd64.s:1594: Error WrongPassword | <nil>
+2022/12/31 21:55:14 asm_amd64.s:1594: User |  1 logged in successfully
+2022/12/31 21:55:23 asm_amd64.s:1594: Comments | comments retrieved successfully 1
+2022/12/31 21:55:46 asm_amd64.s:1594: User |  1 cart fetched successfully
+2022/12/31 21:55:50 asm_amd64.s:1594: User | Product added to cart by 1
+2022/12/31 21:55:51 asm_amd64.s:1594: User |  1 cart fetched successfully
+2022/12/31 21:56:05 asm_amd64.s:1594: User | Message added successfully by 1
+2022/12/31 21:56:05 asm_amd64.s:1594: User |  1 cart fetched successfully
+2022/12/31 21:56:07 asm_amd64.s:1594: User | addresses retrieved successfully 1
+2022/12/31 21:56:11 asm_amd64.s:1594: User | addresses retrieved successfully 1
+2022/12/31 21:56:36 asm_amd64.s:1594: User | Address added successfully by 1
+2022/12/31 21:56:36 asm_amd64.s:1594: User | addresses retrieved successfully 1
+2022/12/31 21:56:38 asm_amd64.s:1594: User |  1 cart fetched successfully
+2022/12/31 21:56:40 asm_amd64.s:1594: User | addresses retrieved successfully 1
+2022/12/31 21:56:54 asm_amd64.s:1594: User | bought cart 1
+2022/12/31 21:56:56 asm_amd64.s:1594: User |  1 cart fetched successfully
+2022/12/31 21:57:04 asm_amd64.s:1594: User |  1 orders fetched successfully
+2022/12/31 21:57:23 asm_amd64.s:1594: Seller | Login successfully by 1
+2022/12/31 21:57:24 asm_amd64.s:1594: Seller | Products fetched successfully by 1
+2022/12/31 21:57:33 asm_amd64.s:1594: Seller | Gallery fetched successfully by 1
+2022/12/31 21:57:39 asm_amd64.s:1594: Seller | Orders fetched successfully by 1
+2022/12/31 21:58:07 asm_amd64.s:1594: Seller | Order updated successfully by 1
+2022/12/31 21:58:07 asm_amd64.s:1594: Seller | Orders fetched successfully by 1
+2022/12/31 22:00:22 asm_amd64.s:1594: Seller | Products fetched successfully by 1
+2022/12/31 22:01:47 asm_amd64.s:1594: User |  test1 Forget password code sent to gardasnebakan@gmail.com
+2022/12/31 22:01:57 asm_amd64.s:1594: User | ConfirmCode fetched successfully by 1
+2022/12/31 22:02:07 asm_amd64.s:1594: User | Password changed successfully by 1
+2022/12/31 22:16:52 asm_amd64.s:1594: Error RequiredField | Password <nil>
+2022/12/31 22:16:58 asm_amd64.s:1594: Error WrongPassword | <nil>
+2022/12/31 22:17:03 asm_amd64.s:1594: Error WrongPassword | <nil>
+2022/12/31 22:17:05 asm_amd64.s:1594: Error WrongPassword | <nil>
+2022/12/31 22:17:16 asm_amd64.s:1594: Error WrongPassword | <nil>
+2022/12/31 22:17:21 asm_amd64.s:1594: User |  1 logged in successfully
+2022/12/31 22:17:51 asm_amd64.s:1594: Comments | comments retrieved successfully 2
+2022/12/31 22:18:08 asm_amd64.s:1594: Comments | comments retrieved successfully 1
+2022/12/31 22:18:13 asm_amd64.s:1594: User | Product added to cart by 1
+2022/12/31 22:18:17 asm_amd64.s:1594: User |  1 cart fetched successfully
+2022/12/31 22:18:25 asm_amd64.s:1594: User |  1 cart fetched successfully
+2022/12/31 22:18:26 asm_amd64.s:1594: User | addresses retrieved successfully 1
+2022/12/31 22:18:31 asm_amd64.s:1594: User | addresses retrieved successfully 1
+2022/12/31 22:19:34 asm_amd64.s:1594: User |  1 cart fetched successfully
+2022/12/31 22:19:47 asm_amd64.s:1594: User | Message added successfully by 1
+2022/12/31 22:19:47 asm_amd64.s:1594: User |  1 cart fetched successfully
+2022/12/31 22:19:48 asm_amd64.s:1594: User | addresses retrieved successfully 1
+2022/12/31 22:20:07 asm_amd64.s:1594: User | bought cart 1
+2022/12/31 22:20:07 asm_amd64.s:1594: User |  1 cart fetched successfully
+2022/12/31 22:20:11 asm_amd64.s:1594: User |  1 orders fetched successfully
+2022/12/31 22:20:38 asm_amd64.s:1594: Seller | Login successfully by 1
+2022/12/31 22:20:38 asm_amd64.s:1594: Seller | Products fetched successfully by 1
+2022/12/31 22:20:45 asm_amd64.s:1594: Seller | Gallery fetched successfully by 1
+2022/12/31 22:21:16 asm_amd64.s:1594: Seller | Image uploaded successfully by 1
+2022/12/31 22:21:16 asm_amd64.s:1594: Seller | Gallery fetched successfully by 1
+2022/12/31 22:21:22 asm_amd64.s:1594: Seller | Image deleted successfully by 1
+2022/12/31 22:21:22 asm_amd64.s:1594: Seller | Gallery fetched successfully by 1
+2022/12/31 22:21:24 asm_amd64.s:1594: Seller | Orders fetched successfully by 1
+2022/12/31 22:21:37 asm_amd64.s:1594: Seller | Profile fetched successfully by 1
+2022/12/31 22:21:39 asm_amd64.s:1594: Seller | Products fetched successfully by 1
+2022/12/31 22:21:42 asm_amd64.s:1594: Seller | Gallery fetched successfully by 1
+2022/12/31 22:21:50 asm_amd64.s:1594: Seller | Gallery fetched successfully by 1

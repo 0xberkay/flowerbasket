@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Pass</title>
+
+    <!-- Include the Tailwind CSS stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+</head>
+
+<body class="bg-gray-200">
+    <!-- Add a modern UI using Tailwind CSS classes -->
+    <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto my-16">
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Change pass for {{.title}}</div>
+            <form class="w-full max-w-sm">
+                <div class="md:flex md:items-center mb-6">
+                    <div class="md:w-1/3">
+                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="password">
+                            Password
+                        </label>
+                    </div>
+                    <div class="md:w-2/3">
+                        <input
+                            class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                            id="password" type="password" placeholder="Enter your new password" required>
+                    </div>
+                </div>
+                <div class="md:flex md:items-center mb-6">
+                    <div class="md:w-1/3">
+                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="confirm">
+                            Confirm Password
+                        </label>
+                    </div>
+                    <div class="md:w-2/3">
+                        <input
+                            class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                            id="confirm" type="password" placeholder="Confirm your new password" required>
+                    </div>
+                </div>
+                <div class="md:flex md:items-center">
+                    <div class="md:w-1/3"></div>
+                    <div class="md:w-2/3">
+                        <button
+                            class="shadow bg-purple-500 hover:bg-purple-400 focus:outline-none focus:shadow-outline-purple active:bg-purple-800 text-white font-bold py-2 px-4 rounded-full"
+                            type="submit">
+                            Reset
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        const password = document.getElementById('password');
+        const confirm = document.getElementById('confirm');
+        const submit = document.querySelector('button[type="submit"]');
+
+        submit.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (password.value !== confirm.value) {
+                alert('Password not match');
+            } else {
+                fetch('/{{.type}}/changepass', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer {{.token}}'
+                    },
+                    body: JSON.stringify({
+                        password: password.value,
+                        confirm: confirm.value
+                    })
+                }).then(res => {
+                    if (res.status === 200) {
+                        window.location.href = '/ok';
+                    } else {
+                        res.json().then(res => {
+                            alert(res.message);
+                        })
+                    }
+                })
+                    
+            }
+        })
+    </script>
+
+</body>
+
+</html>
