@@ -1,5 +1,5 @@
 # flowerbasket
-Ciceksepeti e-commerce clone school project
+Ciceksepeti e-commerce clone project
 
 
 <table>
